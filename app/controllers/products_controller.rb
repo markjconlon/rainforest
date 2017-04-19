@@ -32,6 +32,7 @@ class ProductsController < ApplicationController
       redirect_to product_url(@product)
     else
       render :edit
+    end
   end
 
   def destroy
