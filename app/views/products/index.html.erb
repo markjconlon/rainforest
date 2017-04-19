@@ -3,7 +3,7 @@
 <% @products.each do |p| %>
   <ul>
     <li>
-      <p><strong><%= p.name %></strong></p>
+      <p><strong><%= link_to "#{p.name}", p %></strong></p>
       <p><%= p.description %></p>
       <p><%= p.price_in_cents %>&#162;</p>
     </li>
