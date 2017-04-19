@@ -5,7 +5,7 @@
     <li>
       <p><strong><%= link_to "#{p.name}", p %></strong></p>
       <p><%= p.description %></p>
-      <p><%= p.price_in_cents %>&#162;</p>
+      <p>$<%= p.formatted_price %></p>
     </li>
   </ul>
 <% end %>
